@@ -17,20 +17,20 @@ function reset() {
 }
 
 function showhtml() {
-  document.getElementById('fig').src = 'ima/html5.jpg';
+  document.getElementById('fig').src = 'img/html5.jpg';
   document.getElementById('desc').innerHTML =
     '<b>HTML</b>은 구조적 웹문서를 작성하는데 사용하는 마크업 언어이다';
 }
 
 function showcss() {
-  document.getElementById('fig').src = 'ima/css3.jpg';
-  document.getElementById('desc').innerCSS =
+  document.getElementById('fig').src = 'img/css3.jpg';
+  document.getElementById('desc').innerHTML =
     '<b>css</b>은 구조적 웹문서를 작성하는데 사용하는 마크업 언어이다';
 }
 
 function showjs() {
-  document.getElementById('fig').src = 'ima/javascript.jpg';
-  document.getElementById('desc').innerjavascript =
+  document.getElementById('fig').src = 'img/javascript.jpg';
+  document.getElementById('desc').innerHTML =
     '<b>javascript</b>은 구조적 웹문서를 작성하는데 사용하는 마크업 언어이다';
 }
 function hide() {
